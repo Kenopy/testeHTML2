@@ -1,3 +1,46 @@
 *{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.emColuna{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.emLinha{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
     
+}
+
+header{
+    background-color: #FFD552;
+    padding: 1vw;
+}
+
+header {
+    ul, li{
+        display: flex;
+        padding: 0.5em;
+        font-size: large;
+    }
+    
+    a{
+        color: black;
+    }
+
+
+}
+
+section{
+    margin: 1em;
+    border-style: double;
 }
